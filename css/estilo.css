@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/* HEADER */
+
+.tam-logo {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.fuentes-nav {
+    padding-left: 2rem;
+}
+
+
+header {
+    background-color: #131212;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.4rem;
+}
+
+.nav-link:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.nav-link a:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+/* BODY */
+
+
+.productosPagPrincipal {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.diaDelNiño h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ropaChicos p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.comprar {
+    padding-top: 25px;
+}
+
+.comprar {
+    background-color: #131212;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 24px;
+
+}
+
+.comprar a {
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+
+/*CARROUSEL*/
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide {
+    margin-top: 10px;
+}
+/*FIN CARROUSEL*/
+
+.nuestraHistoria {
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.nuestraHistoria h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.nuestraHistoria p {
+    padding-top: 10px;
+    font-size: 25px;
+
+
+}
+
+.nuestraHistoria iframe {
+    padding-top: 50px;
+    width: 80%;
+    height: 800px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+    .nuestraHistoria iframe {
+        max-height: 400px;
+    }
+}
+
+
+.wathsapp {
+    width: 80px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: #131212;
+    color: white;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 1.2rem;
+}
+.texto-f {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.texto-footer:hover {
+    color: white;
+    border-bottom: 1px solid white;
+}
+/* INDUMENTARIA */
+
+.indumentaria {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.indumentaria .entrenaTitulo h3 {
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.indumentaria .indumentariaEntrenamiento h3 {
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.fotosInd {
+    width: 100%;
+    height: 800px;
+}
+
+.fotosInd img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.fotosHyM {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.fotoHombre {
+    text-align: center;
+
+}
+
+
+.fotoHombre p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.fotoHombre a {
+    background-color: #131212;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 23px;
+    color: white;
+}
+
+.fotoHombre img {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.fotoMujer {
+    text-align: center;
+
+}
+
+
+.fotoMujer p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+
+}
+
+.fotoMujer .comprar {
+    background-color: #131212;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    border: none;
+    font-size: 23px;
+    color: white;
+}
+
+.fotoMujer img {
+    display: flex;
+    align-items: center;
+
+}
+
+/* ZAPATILLAS */
+
+.siluetas {
+    text-align: center;
+    font-size: 45px;
+}
+
+.siluetas h3 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.siluetas p {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+    text-transform: none;
+}
+
+.container {
+    height: min-content;
+    margin: 100px auto;
+}
+.card {
+    height: auto;
+    overflow: hidden;
+
+}
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-title {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card-text {
+    font: 20px;
+    color: #504f4f;
+}
+.card-price {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.color-btn {
+    background-color: #131212;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+
+.color-btn:hover {
+    background-color: #504f4f;
+    color: white;
+}
+
+/* OFERTAS */
+
+.ofertasTitulo h3 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 50px;
+    
+    
+}
+
+.ofertasTitulo p {
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: lighter;
+    text-transform: none;
+    text-align: center;
+}
+
+Font {
+    color: red;
+}
+
+.ofertasConTodo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ofertasIma {
+    width: 100%;
+    height: 500px;
+}
+
+.ofertasIma img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buzoNegro {
+    padding-left: 30px;
+}
+
+.buzoNegro img {
+    cursor: pointer;
+}
+
+
+.camperaNike img {
+    cursor: pointer;
+}
+
+.buzoGris {
+    padding-right: 20px;
+}
+
+.buzoGris img {
+    cursor: pointer;
+}
+
+.nombreRopa {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtiRopa {
+    font: 20px;
+    padding-top: 10px;
+    color: #504f4f;
+}
+
+.precioRopa {
+    padding-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.preciosParaFoto {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.precioNuevo {
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+
+/* CONTACTO */
+
+.tituloPrincipalContacto h3 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.tituloPrincipalContacto p {
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: lighter;
+    text-transform: none;
+    text-align: center;
+}
+
+.mapa iframe {
+    padding: 120px;
+    padding-top: 50px;
+    width: 100%;
+    height: 800px;
+
+}
+
+form {
+    text-align: center;
+    padding-left: 700px;
+    padding-right: 700px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black
+}
+
+input[type="text"],
+textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btnFormulario input {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
