@@ -95,6 +95,7 @@ header {
 .slide {
     margin-top: 10px;
 }
+
 /*FIN CARROUSEL*/
 
 .nuestraHistoria {
@@ -124,10 +125,11 @@ header {
     padding-bottom: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .nuestraHistoria iframe {
         max-height: 400px;
     }
+
 }
 
 
@@ -149,6 +151,7 @@ footer {
     color: white;
     font-size: 1.2rem;
 }
+
 .texto-f {
     color: white;
     font-size: 1.2rem;
@@ -158,6 +161,7 @@ footer {
     color: white;
     border-bottom: 1px solid white;
 }
+
 /* INDUMENTARIA */
 
 .indumentaria {
@@ -183,7 +187,8 @@ footer {
 
 .fotosInd {
     width: 100%;
-    height: 800px;
+    height: auto;
+    padding: 20px;
 }
 
 .fotosInd img {
@@ -201,7 +206,6 @@ footer {
 
 .fotoHombre {
     text-align: center;
-
 }
 
 
@@ -260,6 +264,44 @@ footer {
 
 }
 
+@media (max-width:768px) {
+    .fotosHyM {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fotosHyM .fotoHombre .fotoMujer .fotosInd img {
+        height: auto;
+        width: 100vh;
+        padding-right: 120px;
+        object-fit: cover;
+    }
+
+    .fotoMujer p {
+        padding-top: 0;
+    }
+
+    .fotoHombre p {
+        padding-top: 0;
+    }
+
+    .comprar {
+        background-color: #131212;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: none;
+        margin-top: 10px;
+        display: inline-block;
+        margin-bottom: 24px;
+    }
+
+    .comprar a {
+        text-decoration: none;
+        font-size: 23px;
+        color: white;
+    }
+}
+
 /* ZAPATILLAS */
 
 .siluetas {
@@ -286,11 +328,13 @@ footer {
     height: min-content;
     margin: 100px auto;
 }
+
 .card {
     height: auto;
     overflow: hidden;
 
 }
+
 .card-img-top {
     width: 100%;
     height: auto;
@@ -302,10 +346,12 @@ footer {
     font-size: 20px;
     font-weight: bold;
 }
+
 .card-text {
     font: 20px;
     color: #504f4f;
 }
+
 .card-price {
     font-weight: bold;
     font-size: 25px;
@@ -331,8 +377,8 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
     padding-top: 50px;
-    
-    
+
+
 }
 
 .ofertasTitulo p {
@@ -347,73 +393,22 @@ Font {
     color: red;
 }
 
-.ofertasConTodo {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.card .card-body .card-price .oferta-20 {
+    color: red;
+    font-size: 18px;
+    padding-bottom: 0px;
 }
-
-.ofertasIma {
-    width: 100%;
-    height: 500px;
+.card-price {
+    margin-bottom: 0px;
 }
-
-.ofertasIma img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.buzoNegro {
-    padding-left: 30px;
-}
-
-.buzoNegro img {
-    cursor: pointer;
-}
-
-
-.camperaNike img {
-    cursor: pointer;
-}
-
-.buzoGris {
-    padding-right: 20px;
-}
-
-.buzoGris img {
-    cursor: pointer;
-}
-
-.nombreRopa {
-    padding-top: 20px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.subtiRopa {
-    font: 20px;
-    padding-top: 10px;
-    color: #504f4f;
-}
-
-.precioRopa {
-    padding-top: 10px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
 .preciosParaFoto {
     color: red;
     font-size: 20px;
     text-decoration: none;
 }
-
-
-.precioNuevo {
-    padding-top: 5px;
-    font-size: 30px;
+.card-price-nuevo {
+    padding-top: 0px;
+    font-size: 25px;
     font-weight: bold;
     color: red;
 }
