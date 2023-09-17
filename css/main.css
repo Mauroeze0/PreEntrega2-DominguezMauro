@@ -222,6 +222,19 @@ header {
   align-items: center;
 }
 
+.nav-link {
+  color: #fafafa;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.nav-link:hover {
+  background-color: #fafafa;
+  color: #131212;
+  border-radius: 20px;
+}
+
 .wathsapp {
   position: fixed;
   width: 80px;
