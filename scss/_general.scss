@@ -1,0 +1,168 @@
+* {
+    font-family: $fuente-principal;
+    scroll-behavior: smooth;
+}
+
+/*NAV BAR*/
+
+header {
+    background-color: $color-principal;
+}
+
+#navbarNav {
+    .fuentes-nav {
+        padding-left: 2rem;
+    }
+
+    .nav-link {
+        color: $color-secundario;
+        font-size: 1.4rem;
+        text-decoration: none;
+        transition: .3s;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: $color-secundario;
+            color: $color-principal;
+            border-radius: 20px;
+        }
+    }
+}
+
+.tam-logo {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    color: $color-secundario;
+    border-color: $color-secundario;
+}
+
+/*PAG PRINCIPAL*/
+
+.productosPagPrincipal {
+    text-align: center;
+    padding-top: 80px;
+
+    .diaDelNiño h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    .ropaChicos p {
+        padding-top: 10px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+
+    .color-btn {
+        @extend .color-btn;
+
+        &:hover {
+            background-color: #504f4f;
+            color: $color-secundario;
+        }
+    }
+}
+
+/*CARROUSEL*/
+
+#carouselExample {
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slide {
+        margin-top: 10px;
+    }
+}
+
+/*FIN CARROUSEL*/
+
+.nuestraHistoria {
+    text-align: center;
+    padding-top: 30px;
+
+    h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    p {
+        padding-top: 10px;
+        font-size: 25px;
+    }
+
+    iframe {
+        padding-top: 50px;
+        width: 80%;
+        height: 800px;
+        padding-bottom: 50px;
+
+    }
+}
+
+.wathsapp {
+    @include logo-wspp (fixed,80px,20px,20px,pointer)
+}
+
+
+/*FOOTER*/
+
+.contenedor {
+    footer {
+        background-color: $color-principal;
+        color: $color-secundario;
+    }
+
+    .texto-footer {
+        color: $color-secundario;
+        font-size: $texto-mediano;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: $color-secundario;
+            color: $color-principal;
+            border-radius: 20px;
+        }
+    }
+}
+//Eror 404
+
+.container-404 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 10%;
+    h1 {
+        font-size: 6em;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 1.7em;
+        margin-bottom: 50px;
+    }
+    .btn-404 {
+        @extend .color-btn;
+        text-decoration: none;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+.btn-404 {
+    @extend .color-btn;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

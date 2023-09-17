@@ -1,0 +1,94 @@
+/*INDUMENTARIA*/
+.indumentaria {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+
+    .entrenaTitulo h1 {
+        text-align: center;
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding-top: 10px;
+    }
+
+    .indumentariaEntrenamiento h2 {
+        padding-top: 30px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+}
+
+.fotosInd {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.fotosHyM {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 70px;
+}
+
+.fotoHombre {
+    text-align: center;
+    padding-bottom: 40px;
+
+    p {
+        font-size: $texto-grande;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .color-btn {
+        @extend .color-btn;
+
+        &:hover {
+            background-color: #504f4f;
+            color: $color-secundario;
+        }
+    }
+    
+
+    img {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.fotoMujer {
+    text-align: center;
+
+    p {
+        font-size: $texto-grande;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .color-btn {
+        @extend .color-btn;
+
+        &:hover {
+            background-color: #504f4f;
+            color: $color-secundario;
+        }
+    }
+    
+
+    img {
+        display: flex;
+        align-items: center;
+    }
+}
+.wathsapp {
+    @include logo-wspp (fixed,80px,20px,20px,pointer)
+}

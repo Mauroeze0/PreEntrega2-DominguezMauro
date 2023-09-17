@@ -1,0 +1,473 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2? family= Roboto:wght@100 & display=swap");
+.color-btn, .fotoMujer .color-btn, .fotoMujer .btn-404, .fotoHombre .color-btn, .fotoHombre .btn-404, .btn-404, .productosPagPrincipal .btn-404, .container-404 .btn-404, .productosPagPrincipal .color-btn {
+  background-color: #131212;
+  color: #fafafa;
+  font-size: 1.4em;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*NAV BAR*/
+header {
+  background-color: #131212;
+}
+
+#navbarNav .fuentes-nav {
+  padding-left: 2rem;
+}
+#navbarNav .nav-link {
+  color: #fafafa;
+  font-size: 1.4rem;
+  text-decoration: none;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+#navbarNav .nav-link:hover {
+  background-color: #fafafa;
+  color: #131212;
+  border-radius: 20px;
+}
+
+.tam-logo {
+  width: 120px;
+  margin-left: 20px;
+}
+
+.navbar-toggler {
+  color: #fafafa;
+  border-color: #fafafa;
+}
+
+/*PAG PRINCIPAL*/
+.productosPagPrincipal {
+  text-align: center;
+  padding-top: 80px;
+}
+.productosPagPrincipal .diaDelNiño h1 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.productosPagPrincipal .ropaChicos p {
+  padding-top: 10px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+.productosPagPrincipal .color-btn:hover, .productosPagPrincipal .btn-404:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+
+/*CARROUSEL*/
+#carouselExample .carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+#carouselExample .slide {
+  margin-top: 10px;
+}
+
+/*FIN CARROUSEL*/
+.nuestraHistoria {
+  text-align: center;
+  padding-top: 30px;
+}
+.nuestraHistoria h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.nuestraHistoria p {
+  padding-top: 10px;
+  font-size: 25px;
+}
+.nuestraHistoria iframe {
+  padding-top: 50px;
+  width: 80%;
+  height: 800px;
+  padding-bottom: 50px;
+}
+
+.wathsapp {
+  position: fixed;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/*FOOTER*/
+.contenedor footer {
+  background-color: #131212;
+  color: #fafafa;
+}
+.contenedor .texto-footer {
+  color: #fafafa;
+  font-size: 1.2em;
+  border-radius: 20px;
+}
+.contenedor .texto-footer:hover {
+  background-color: #fafafa;
+  color: #131212;
+  border-radius: 20px;
+}
+
+.container-404 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+.container-404 h1 {
+  font-size: 6em;
+  margin-bottom: 20px;
+}
+.container-404 h2 {
+  font-size: 1.7em;
+  margin-bottom: 50px;
+}
+.container-404 .btn-404 {
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-404 {
+  text-decoration: none;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*INDUMENTARIA*/
+.indumentaria {
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.indumentaria .entrenaTitulo h1 {
+  text-align: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.indumentaria .indumentariaEntrenamiento h2 {
+  padding-top: 30px;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.fotosInd {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.fotosInd img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fotosHyM {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 70px;
+}
+
+.fotoHombre {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.fotoHombre p {
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+}
+.fotoHombre .color-btn:hover, .fotoHombre .btn-404:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+.fotoHombre img {
+  display: flex;
+  align-items: center;
+}
+
+.fotoMujer {
+  text-align: center;
+}
+.fotoMujer p {
+  font-size: 1.7em;
+  text-align: center;
+  font-weight: bold;
+}
+.fotoMujer .color-btn:hover, .fotoMujer .btn-404:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+.fotoMujer img {
+  display: flex;
+  align-items: center;
+}
+
+.wathsapp {
+  position: fixed;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/*ZAPATILLAS*/
+.siluetas {
+  text-align: center;
+  font-size: 45px;
+}
+.siluetas h1 {
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.siluetas p {
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: lighter;
+  text-transform: none;
+}
+
+.container {
+  height: min-content;
+  margin: 100px auto;
+}
+
+.card {
+  height: auto;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-title {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font: 20px;
+  color: #504f4f;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.color-btn:hover, .btn-404:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+
+/*OFERTAS*/
+.ofertasTitulo h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.ofertasTitulo p {
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: lighter;
+  text-transform: none;
+  text-align: center;
+}
+
+Font {
+  color: red;
+}
+
+.card .card-body .card-price .oferta-20 {
+  color: red;
+  font-size: 18px;
+  padding-bottom: 0px;
+}
+
+.card-price {
+  margin-bottom: 0px;
+}
+
+.preciosParaFoto {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.card-price-nuevo {
+  padding-top: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.color-btn:hover, .btn-404:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+
+.wathsapp {
+  position: fixed;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/* CONTACTO */
+.tituloPrincipalContacto h1 {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 50px;
+}
+.tituloPrincipalContacto p {
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: lighter;
+  text-transform: none;
+  text-align: center;
+}
+
+.mapa iframe {
+  padding: 120px;
+  padding-top: 20px;
+  width: 100%;
+  height: 800px;
+}
+
+form {
+  text-align: center;
+  padding-left: 700px;
+  padding-right: 700px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: black;
+}
+
+input[type=text],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.btnFormulario input {
+  background-color: black;
+  color: #fafafa;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.btnFormulario input:hover {
+  background-color: #504f4f;
+  color: #fafafa;
+}
+
+.wathsapp {
+  position: fixed;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 768px) {
+  .nuestraHistoria iframe {
+    max-height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .fotosHyM {
+    display: flex;
+    flex-direction: column;
+  }
+  .fotosHyM .fotoHombre .fotoMujer .fotosInd img {
+    height: auto;
+    width: 100vh;
+    padding-right: 120px;
+    object-fit: cover;
+  }
+  .fotoMujer p {
+    padding-top: 0;
+  }
+  .fotoHombre p {
+    padding-top: 0;
+  }
+  .comprar {
+    background-color: #131212;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 24px;
+  }
+  .comprar a {
+    text-decoration: none;
+    font-size: 23px;
+    color: #fafafa;
+  }
+}
+@media (max-width: 768px) {
+  .mapa iframe {
+    width: 100%;
+    height: 80vh;
+    padding: 90px 60px;
+  }
+  form {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+.wathsapp {
+  position: fixed;
+  width: 80px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */

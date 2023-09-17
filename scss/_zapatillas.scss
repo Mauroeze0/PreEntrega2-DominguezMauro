@@ -1,0 +1,61 @@
+/*ZAPATILLAS*/
+.siluetas {
+  text-align: center;
+  font-size: 45px;
+
+  h1 {
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  p {
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: lighter;
+    text-transform: none;
+  }
+}
+
+.container {
+  height: min-content;
+  margin: 100px auto;
+}
+
+.card {
+  height: auto;
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.card-title {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font: 20px;
+  color: #504f4f;
+}
+
+.card-price {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.color-btn {
+  @extend .color-btn;
+
+  &:hover {
+      background-color: #504f4f;
+      color: $color-secundario;
+  }
+}

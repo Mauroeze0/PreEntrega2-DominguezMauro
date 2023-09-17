@@ -1,0 +1,56 @@
+/*OFERTAS*/
+.ofertasTitulo {
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 50px;
+  }
+
+  p {
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: lighter;
+    text-transform: none;
+    text-align: center;
+  }
+}
+
+Font {
+  color: red;
+}
+
+.card .card-body .card-price .oferta-20 {
+  color: red;
+  font-size: 18px;
+  padding-bottom: 0px;
+}
+
+.card-price {
+  margin-bottom: 0px;
+}
+
+.preciosParaFoto {
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.card-price-nuevo {
+  padding-top: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  color: red;
+}
+.color-btn {
+  @extend .color-btn;
+
+  &:hover {
+      background-color: #504f4f;
+      color: $color-secundario;
+  }
+}
+.wathsapp {
+  @include logo-wspp (fixed,80px,20px,20px,pointer)
+}

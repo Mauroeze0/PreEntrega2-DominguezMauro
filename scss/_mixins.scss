@@ -1,0 +1,16 @@
+//extend
+.color-btn {
+    background-color: $color-principal;
+    color: $color-secundario;
+    font-size: 1.4em;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+@mixin logo-wspp ($type,$width,$bottom,$right,$cursor){
+    position: $type;
+    width: $width;
+    bottom: $bottom;
+    right: $right;
+    cursor: $cursor;
+}
