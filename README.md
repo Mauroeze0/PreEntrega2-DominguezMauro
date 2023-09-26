@@ -1,5 +1,5 @@
 # PreEntrega3-DominguezMauro </br>
-Proyecto funcionando correctamente, las 2 paginas que son responsive son el index.html y zapatillas.hmtl </br>
+Proyecto realizado en el curso de Desarrollo Web en CoderHouse, el proyecto se trata sobre un Ecommerse de Nike </br></br>
 ✔[Versel](https://nikefalso.vercel.app/)</br>
 ✔[GitHub-Pages](https://mauroeze0.github.io/PreEntrega3-DominguezMauro/)</br>
 
