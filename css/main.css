@@ -384,8 +384,8 @@ Font {
 
 form {
   text-align: center;
-  padding-left: 700px;
-  padding-right: 700px;
+  padding-left: 30%;
+  padding-right: 30%;
 }
 
 label {
@@ -406,7 +406,11 @@ textarea {
   margin-bottom: 20px;
 }
 
-.btnFormulario input {
+.btnFormulario {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+.btnFormulario a {
   background-color: black;
   color: #fafafa;
   border: none;
@@ -416,8 +420,9 @@ textarea {
   cursor: pointer;
   margin-top: 10px;
   margin-bottom: 30px;
+  text-decoration: none;
 }
-.btnFormulario input:hover {
+.btnFormulario a:hover {
   background-color: #504f4f;
   color: #fafafa;
 }
